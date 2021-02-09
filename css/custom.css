@@ -1,0 +1,495 @@
+
+@font-face{
+    font-family:'Roboto-Medium';
+    src:url("../fonts/Roboto/Roboto-Medium.ttf")format("truetype");
+    font-weight:normal;font-style:normal}
+
+@font-face{
+    font-family:'Roboto-Bold';
+    src:url("../fonts/Roboto/Roboto-Bold.ttf")format("truetype");
+    font-weight:normal;font-style:normal}
+
+    @font-face{
+    font-family:'Roboto-Regular';
+    src:url("../fonts/Roboto/Roboto-Regular.ttf")format("truetype");
+    font-weight:normal;font-style:normal}
+
+  
+
+    @font-face{
+    font-family:'MYRIADPRO-REGULAR';
+    src:url("../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF")format("opentype");
+    font-weight:normal;font-style:normal}
+
+
+.row{
+	margin-right:0;
+	margin-left:0
+}
+
+body, html {
+    height: 100%;
+    font-family: Roboto;
+    margin: 0 auto;
+}
+
+body{overflow-x:hidden}
+html{scroll-behavior:smooth}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+body {
+	-webkit-font-smoothing: antialiased!important;
+}
+section{
+	padding: 40px 0px;
+}
+.h1, .h2, .h3, h1, h2, h3 ,.h4, .h5, .h6, h4, h5, h6 , p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.indexheader {
+    background: url(../images/indexbg.jpg) no-repeat;
+    background-size:cover;
+}
+.header-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding-top:80px; 
+}
+.banner-text {
+    text-align: center;
+    align-self: flex-start;
+    width: 100%;
+    padding-top: 50px;
+}
+.banner-text h2 {
+    color: #ffffff;
+    text-align: center;
+    font: 60px/60px 'Roboto-Medium';
+    opacity: 0.9;
+    text-shadow: 2px 2px 5px #000;
+}
+.banner-text p {
+    color: #ffffff;
+    text-align: center;
+    font: 32px/40px 'Roboto-Medium';
+    opacity: 0.9;
+    text-shadow: 2px 2px 5px #000;
+    margin: 20px auto 20px;
+    max-width: 70%;
+}
+.bannerbtn {
+    color: #fff;
+    background: transparent;
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 10px auto;
+    min-width: 380px;
+    text-align: center;
+    font: 14px/32px 'Roboto-Bold';
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    text-shadow: 2px 2px 25px #000;
+}
+
+.attend_automation {
+    width: 100%;
+    min-height: 270px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 50px;
+    margin-bottom: 30px;}
+.attend_automation h5{
+    font: 16px/30px 'Roboto-Bold';
+}
+.attend_automation p{
+    font: 16px/22px 'Roboto-Regular';}
+.red_bgd {
+    background: url(../images/red_1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.blue_bgd{
+		background: url(../images/Blue_1.png) no-repeat;
+		     background-size: 100% 100%;
+
+}
+.green_bgd{
+		background: url(../images/Green_1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.violet_bgd{
+		background: url(../images/Violet_1.png) no-repeat;
+    background-size: 100% 100%;
+}
+.content_3{
+    background: #f2f2f2;
+    color:#fff;
+}
+.content_4{
+    background: black;
+        text-align: center;
+            color: #fff;
+
+}
+.infographics {
+    width: 100%;
+    max-width: 550px;
+    margin: 0px auto;
+}
+.ui_anywhere {
+    margin-right: 30px;
+    padding: 16px 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+.ui_anywhere {
+    margin-right: 30px;
+}
+.ui_path img {
+    width: 100px;
+}
+.ui_path {
+    display: flex;
+    align-items: center;
+    margin: 25px auto;
+    justify-content: center;
+}
+
+.content_2{
+	   
+}
+.content_2 p{
+    color: #231f20;
+    font: 28px/36px 'MYRIADPRO-REGULAR';
+        margin-bottom: 25px;
+}
+.content_2 h2{
+	    color: #023d79;
+    font: 27px/40px 'Roboto-Medium';
+    text-align: center;
+}
+.content_4 p{
+      font: 28px/40px 'Roboto-Bold';
+}
+.content_5 h4 ,.content_6 h6{
+	      font: 26px/40px 'Roboto-Bold';
+	          color: #000;
+
+}
+.content_6{
+    background: #f2f2f2;
+}
+
+.content_6 p {
+    font: 20px/30px 'Roboto-Regular';
+    color: #000;
+}
+
+.content_6 p span{
+    font: 20px/30px 'Roboto-Bold';
+    color: #000;
+}
+.train_new{
+    margin: 0px auto;
+    text-align: center;
+    width: 155px;
+    display: block;
+}
+.train_new img{
+	    width: 100px;
+}
+.train_new h1{
+	    font: 18px/20px 'Roboto-Regular';
+    color: #000;
+    margin: 20px 0px;
+}
+.dd-flex {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+ .testimonial {
+    margin: 0 15px 30px 5px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 2%;
+}
+.roles{
+    font: 18px/34px 'Roboto-Regular';
+
+}
+p.testimonialText {
+    font: 18px/26px 'MYRIADPRO-REGULAR';
+    width: 90%;
+    color: #000;
+}
+.clientDetails {
+    font: 18px/20px 'Roboto-Regular';
+    font-weight: 700;
+    color: #023d79;
+    margin: 20px 0px 0px;
+}
+.owl-page:nth-child(1) {
+    position: absolute;
+    left: -60px;
+    top: 30%;
+    margin: 30px auto;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(-45deg);
+}
+.owl-page:nth-child(2) {
+
+    position: absolute;
+    right: -60px;
+    top: 30%;
+    margin: 30px auto;
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    transform: rotate(135deg);
+}
+.testimonials {
+    background: url('../images/testbd.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50%;
+        padding: 5% 0 1%;
+}
+        .testimonial .pic{
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            top: 60px;
+            left: 20px;
+        }
+        .testimonial .pic img{
+            width: 100%;
+            height: auto;
+        }
+        .testimonial .description{
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #6f6f6f;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+        .owl-theme .owl-controls .owl-page span {
+
+    background: transparent;
+}
+        .testimonial .title{
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #29D18B;
+            margin: 0;
+        }
+        .testimonial .post{
+            display: inline-block;
+            font-size: 17px;
+            color: #29D18B;
+            font-style:italic;
+        }
+.content_8{
+    background: url('../images/contact-form.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.content_8 p{
+	    font: 26px/40px 'Roboto-Regular';
+}
+.detail-group.tt {
+    width: 90%;
+}
+
+.detail-group {
+    margin: 11px auto 15px;
+    position: relative;
+    width: 80%;
+    padding: 0;
+}
+button.submits {
+     padding: 7px 10px;
+    color: #000;
+    outline: none;
+    font: 14px/20px 'Roboto-Medium';
+    min-width: 130px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+    background-color: hsl(50deg 92% 47%);
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.attcah{
+    padding: 5px 10px;
+    color: #fff;
+    outline: none;
+    font: 14px/20px 'Roboto-Medium';
+    min-width: 140px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 10px;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+    border: 1px solid #ccc;
+}
+.cart-text {
+    padding: 12px 20px 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #C2C2C2 !important;
+    border: none;
+      font: 18px/20px 'Roboto-Regular';
+    outline: none;
+    color: #000;
+    }
+    .cart-label {
+    letter-spacing: .5px;
+    position: absolute;
+    top: 16px;
+    color: rgba(95,99,104,.8);
+    left: 20px;
+    pointer-events: none;
+    transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -webkit-transition: .2s ease all;
+    font: 14px/20px 'Roboto-Regular';
+    letter-spacing: 0px;
+}
+textarea.textareas {
+    width: 100%;
+    min-height: 150px;
+    font: 18px/20px 'Roboto-Regular';
+    outline: none;
+    color: #000;
+    padding: 18px;
+}
+.detail-group .cart-text:focus~.cart-label, .detail-group .cart-text:valid~.cart-label {
+    top: 0px;
+}
+  
+        @media only screen and (max-width: 767px){
+            .testimonial{
+                padding: 20px;
+                text-align: center;
+            }
+            .testimonial .pic{
+                display: block;
+                position: static;
+                margin: 0 auto 15px;
+            }
+
+        }
+  
+        @media only screen and (max-width: 1200px){
+           .pad0 {
+    width: 50%;
+    margin: 0px auto;
+}
+                    }
+                    
+  
+        @media only screen and (max-width: 991px){
+                    .banner-text h2 {
+
+    font: 30px/40px 'Roboto-Medium';
+}
+.banner-text p {
+    font: 22px/30px 'Roboto-Medium';
+    max-width: 90%;
+}
+.detail-group,.detail-group.tt {
+    width: 100%;
+    min-width: 100%
+}
+.bannerbtn{
+    min-width: 60%
+}
+section {
+    padding: 20px 0px;
+}
+.pad0 {
+    width: 100%;
+}
+}
+
+        @media only screen and (max-width: 768px){
+.content_2 p {
+    font: 20px/26px 'MYRIADPRO-REGULAR';
+}
+.content_2 h2 {
+    font: 22px/35px 'Roboto-Medium';
+}
+.content_4 p {
+    font: 16px/30px 'Roboto-Bold';
+}
+.ui_path {
+    flex-wrap: wrap;
+
+}
+.col-md-6.col-sm-12.col-xs-12.text-right {
+    text-align: left;
+}
+.train_new ,p.testimonialText{
+    width: 100%;
+}
+.content_5 h4, .content_6 h6 {
+    font: 20px/25px 'Roboto-Bold';
+}
+button.submits {
+    min-width: 40%;
+
+}
+.infographics {
+    width: 100%;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.ui_anywhere {
+    margin-right: 30px;
+    margin-bottom: 30px;
+        width: 60%;
+}
+}
+
+       @media only screen and (max-width: 500px){
+section {
+    padding: 20px 0px;
+    overflow-x: hidden;
+}
+.header-section {
+    min-height: 80vh;
+}
+}
